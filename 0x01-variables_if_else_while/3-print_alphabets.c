@@ -2,26 +2,20 @@
 /**
  * main - Entry point
  *
- * Return: Always 0 (success)
+ * Return: Always 0 
  */
-
 int main(void)
 {
-char c;
+int n = 97;
+int m = 65;
 
-char d;
-
-c = 'a';
-d = 'A';
-while
-(c <= 'z') {
-putchar(c);
-c++;
+while (n <= 122)
+{
+putchar(n);
 }
-while
-(d <= 'z') {
-putchar(d);
-d++;
+while (m <= 90)
+{
+putchar(m);
 }
 putchar('\n');
 return (0);
