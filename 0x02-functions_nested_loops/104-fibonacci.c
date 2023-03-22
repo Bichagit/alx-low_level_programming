@@ -1,4 +1,4 @@
-#includ <stdio.h>
+#include <stdio.h>
 
 /**
  * main - Prints the first 98 Fibonacci numbers, starting with
@@ -9,7 +9,6 @@
 int main(void)
 
 {
-
 int count;
 unsigned long fib1 = 0, fib2 = 1, sum;
 unsigned long fib1_half1, fib1_half2, fib2_half1, fib2_half2;
