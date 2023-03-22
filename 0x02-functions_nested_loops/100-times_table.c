@@ -1,3 +1,4 @@
+
 #include "main.h"
 
 /**
@@ -6,7 +7,7 @@
  * @n: The value of the times table to be printed.
  */
 
-void print_times_tablet(int n)
+void print_times_table(int n)
 
 {
 
