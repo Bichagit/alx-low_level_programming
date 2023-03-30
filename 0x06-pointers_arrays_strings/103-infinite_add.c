@@ -54,6 +54,7 @@ if (i < 0)
 val1 = 0;
 else
 val1 = *(n1 + i) - '0';
+val1 = *(n1 + i) - '0';
 if (j < 0)
 val2 = 0;
 else
